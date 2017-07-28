@@ -27,7 +27,7 @@ I created this package to aid me in tutoring chemistry students for tutor.com. T
 
                  def __str__(self):
                     return ('Element: {}, {}\nAtomic Number: {}\nMass:
-                   {}'.format(self.name,self.symbol,self.atomic_number,self.mass)||
+                   {}'.format(self.name,self.symbol,self.atomic_number,self.mass))
                    ```
                
    - **Element Objects:** The variable names of the elements are the chemical symbols of the elements (example: hydrogen is H)
