@@ -1,6 +1,6 @@
 
-ChemSolver App
-==============
+ChemSolver Package: Version 0.1
+===============================
 
 Purpose
 -------
@@ -21,6 +21,9 @@ Installation
 .. code:: ruby
 
     pip install chemsolver
+
+or available for download at
+https://pypi.python.org/pypi?name=chemsolver&version=0.1&:action=display
 
 Modules
 -------
