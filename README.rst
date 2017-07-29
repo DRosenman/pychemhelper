@@ -15,6 +15,13 @@ check student's work and also display solutions, while being able to
 focus on checking the student's understanding and catering to his or her
 needs.
 
+Installation
+------------
+
+.. code:: ruby
+
+    pip install chemsolver
+
 Modules
 -------
 
