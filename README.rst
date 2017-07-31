@@ -1,5 +1,5 @@
 
-ChemSolver Package: Version 0.0.1
+ChemSolver Package: Version 0.4
 ===============================
 
 Purpose
