@@ -1,5 +1,5 @@
 
-# ChemSolver Package: Version 0.5
+# ChemSolver Package: Version 0.4
 
 ## Purpose
 I created this package to aid me in tutoring chemistry students for tutor.com. The package has many functions with the capability to solve simple chemistry problems. Each of these functions of a corresponding function with the same name with **"_steps"** tacked on a at the end of the function's name that provided a step by step solution to the problem or step. The goal of this package is to enable me to quickly check student's work and also display solutions, while being able to focus on checking the student's understanding and catering to his or her needs.
