@@ -1,5 +1,5 @@
 
-# ChemSolver Package: Version 0.4
+# ChemHelper Package: Version 0.4
 
 ## Purpose
 I created this package to aid me in tutoring chemistry students for tutor.com. The package has many functions with the capability to solve simple chemistry problems. Each of these functions of a corresponding function with the same name with **"_steps"** tacked on a at the end of the function's name that provided a step by step solution to the problem or step. The goal of this package is to enable me to quickly check student's work and also display solutions, while being able to focus on checking the student's understanding and catering to his or her needs.
@@ -7,81 +7,81 @@ I created this package to aid me in tutoring chemistry students for tutor.com. T
 ## Installation
 
 ```ruby
-pip install chemsolver
+pip install chemhelper
 ``` 
 
-or available for download at <a href = "https://pypi.python.org/pypi?name=chemsolver&version=0.1&:action=display">https://pypi.python.org/pypi?name=chemsolver&version=0.1&:action=display</a>
+or available for download at <a href = "https://pypi.python.org/pypi/chemhelper/0.4">https://pypi.python.org/pypi/chemhelper/0.4</a>
 
 ## Modules 
-- **<a href="#chemsolver.elements" style="text-decoration:none">chemsolver.elements</a>**
+- **<a href="#chemhelper.elements" style="text-decoration:none">chemhelper.elements</a>**
 
-    - <a href="#chemsolver.elements.import" style="text-decoration:none">Importing the module</a>
+    - <a href="#chemhelper.elements.import" style="text-decoration:none">Importing the module</a>
 
-    - <a href="#chemsolver.elements.class" style="text-decoration:none">Element Class</a>
+    - <a href="#chemhelper.elements.class" style="text-decoration:none">Element Class</a>
             
-        - <a href="#chemsolver.elements.objects" style="text-decoration:none">Element Objects</a>
-            - <a href="#chemsolver.elements.objects.attributes" style="text-decoration:none">Element Object Attributes</a>
-            - <a href="#chemsolver.elements.objects.examples" style="text-decoration:none">Examples</a>
+        - <a href="#chemhelper.elements.objects" style="text-decoration:none">Element Objects</a>
+            - <a href="#chemhelper.elements.objects.attributes" style="text-decoration:none">Element Object Attributes</a>
+            - <a href="#chemhelper.elements.objects.examples" style="text-decoration:none">Examples</a>
             <br><br>
      
-    - <a href="#chemsolver.elements.element_index" style="text-decoration:none">element_index</a>
-    - <a href="#chemsolver.elements.element_objects" style="text-decoration:none">element_objects</a>
-    - <a href="#chemsolver.elements.elements" style="text-decoration:none">elements</a> <br> <br>
-- **<a href = "#chemsolver.compounds" style="text-decoration:none">chemsolver.compounds</a>**
-    - <a href = "#chemsolver.compounds.import" style="text-decoration:none">Importing the module</a>
-    - <a href = "#chemsolver.compounds.functions" style="text-decoration:none">Functions</a>
-        - <a href = "#chemsolver.compounds.functions.mass" style="text-decoration:none">mass</a>
-        - <a href = "#chemsolver.compounds.functions.mass_steps" style="text-decoration:none">mass_steps</a>
-            - <a href="#chemsolver.compounds.functions.examples1" style="text-decoration:none">mass and mass_steps examples</a>
+    - <a href="#chemhelper.elements.element_index" style="text-decoration:none">element_index</a>
+    - <a href="#chemhelper.elements.element_objects" style="text-decoration:none">element_objects</a>
+    - <a href="#chemhelper.elements.elements" style="text-decoration:none">elements</a> <br> <br>
+- **<a href = "#chemhelper.compounds" style="text-decoration:none">chemhelper.compounds</a>**
+    - <a href = "#chemhelper.compounds.import" style="text-decoration:none">Importing the module</a>
+    - <a href = "#chemhelper.compounds.functions" style="text-decoration:none">Functions</a>
+        - <a href = "#chemhelper.compounds.functions.mass" style="text-decoration:none">mass</a>
+        - <a href = "#chemhelper.compounds.functions.mass_steps" style="text-decoration:none">mass_steps</a>
+            - <a href="#chemhelper.compounds.functions.examples1" style="text-decoration:none">mass and mass_steps examples</a>
             <br><br>
-        - <a href = "#chemsolver.compounds.functions.composition" style="text-decoration:none">composition</a>
-        - <a href = "#chemsolver.compounds.functions.composition_steps" style="text-decoration:none">composition_steps</a>
-            - <a href="#chemsolver.compounds.functions.examples2" style="text-decoration:none">composition and composition_steps examples</a>
+        - <a href = "#chemhelper.compounds.functions.composition" style="text-decoration:none">composition</a>
+        - <a href = "#chemhelper.compounds.functions.composition_steps" style="text-decoration:none">composition_steps</a>
+            - <a href="#chemhelper.compounds.functions.examples2" style="text-decoration:none">composition and composition_steps examples</a>
                 <br><br>
-        - <a href = "#chemsolver.compounds.functions.percent_composition" style="text-decoration:none">percent_composition</a>
-        - <a href = "#chemsolver.compounds.functions.percent_composition_steps" style="text-decoration:none">percent_composition_steps</a>
-            - <a href="#chemsolver.compounds.functions.examples3" style="text-decoration:none">percent_composition and percent_composition_steps examples</a> <br><br>
-- **<a href = "#chemsolver.conversions" style="text-decoration:none">chemsolver.conversions</a>**
-    - <a href = "#chemsolver.conversions.import" style="text-decoration:none">Importing the module</a>
-    - <a href = "#chemsolver.conversions.functions" style="text-decoration:none">Functions</a>
-        - <a href = "#chemsolver.conversions.functions.grams_to_moles" style="text-decoration:none">grams_to_moles</a>
-        - <a href = "#chemsolver.conversions.functions.grams_to_moles_steps" style="text-decoration:none">grams_to_moles_steps</a>
-            - <a href="#chemsolver.conversions.functions.examples1" style="text-decoration:none">grams_to_moles and grams_to_moles_steps examples</a>
+        - <a href = "#chemhelper.compounds.functions.percent_composition" style="text-decoration:none">percent_composition</a>
+        - <a href = "#chemhelper.compounds.functions.percent_composition_steps" style="text-decoration:none">percent_composition_steps</a>
+            - <a href="#chemhelper.compounds.functions.examples3" style="text-decoration:none">percent_composition and percent_composition_steps examples</a> <br><br>
+- **<a href = "#chemhelper.conversions" style="text-decoration:none">chemhelper.conversions</a>**
+    - <a href = "#chemhelper.conversions.import" style="text-decoration:none">Importing the module</a>
+    - <a href = "#chemhelper.conversions.functions" style="text-decoration:none">Functions</a>
+        - <a href = "#chemhelper.conversions.functions.grams_to_moles" style="text-decoration:none">grams_to_moles</a>
+        - <a href = "#chemhelper.conversions.functions.grams_to_moles_steps" style="text-decoration:none">grams_to_moles_steps</a>
+            - <a href="#chemhelper.conversions.functions.examples1" style="text-decoration:none">grams_to_moles and grams_to_moles_steps examples</a>
             <br><br>
-        - <a href = "#chemsolver.conversions.functions.moles_to_grams" style="text-decoration:none">moles_to_grams</a>
-        - <a href = "#chemsolver.conversions.functions.moles_to_grams_steps" style="text-decoration:none">moles_to_grams_steps</a>
-            - <a href = "#chemsolver.conversions.functions.examples2" style="text-decoration:none">moles_to grams and moles_to_grams_steps examples</a>
+        - <a href = "#chemhelper.conversions.functions.moles_to_grams" style="text-decoration:none">moles_to_grams</a>
+        - <a href = "#chemhelper.conversions.functions.moles_to_grams_steps" style="text-decoration:none">moles_to_grams_steps</a>
+            - <a href = "#chemhelper.conversions.functions.examples2" style="text-decoration:none">moles_to grams and moles_to_grams_steps examples</a>
             <br><br>
-        - <a href = "#chemsolver.conversions.functions.molarity" style="text-decoration:none">molarity</a>
-        - <a href = "#chemsolver.conversions.functions.molarity_steps" style="text-decoration:none">molarity_steps</a>
-            - <a href = "#chemsolver.conversions.functions.examples3" style="text-decoration:none">molarity and molarity_steps examples</a>
+        - <a href = "#chemhelper.conversions.functions.molarity" style="text-decoration:none">molarity</a>
+        - <a href = "#chemhelper.conversions.functions.molarity_steps" style="text-decoration:none">molarity_steps</a>
+            - <a href = "#chemhelper.conversions.functions.examples3" style="text-decoration:none">molarity and molarity_steps examples</a>
              <br><br>
-        - <a href = "#chemsolver.conversions.functions.molarity_to_moles" style="text-decoration:none">molarity_to_moles</a>
-        - <a href = "#chemsolver.conversions.functions.molarity_to_moles_steps" style="text-decoration:none">molarity_to_moles_steps</a>
-            - <a href = "#chemsolver.conversions.functions.examples4" style="text-decoration:none">molarity_to_moles and molarity_to_moles_steps examples</a>
+        - <a href = "#chemhelper.conversions.functions.molarity_to_moles" style="text-decoration:none">molarity_to_moles</a>
+        - <a href = "#chemhelper.conversions.functions.molarity_to_moles_steps" style="text-decoration:none">molarity_to_moles_steps</a>
+            - <a href = "#chemhelper.conversions.functions.examples4" style="text-decoration:none">molarity_to_moles and molarity_to_moles_steps examples</a>
              <br><br>
-        - <a href = "#chemsolver.conversions.functions.molarity_to_grams" style="text-decoration:none">molarity_to_grams</a>
-        - <a href = "#chemsolver.conversions.functions.molarity_to_grams_steps" style="text-decoration:none">molarity_to_grams_steps</a>
-            - <a href = "#chemsolver.conversions.functions.examples5" style="text-decoration:none">molarity and molarity_steps examples</a>        
+        - <a href = "#chemhelper.conversions.functions.molarity_to_grams" style="text-decoration:none">molarity_to_grams</a>
+        - <a href = "#chemhelper.conversions.functions.molarity_to_grams_steps" style="text-decoration:none">molarity_to_grams_steps</a>
+            - <a href = "#chemhelper.conversions.functions.examples5" style="text-decoration:none">molarity and molarity_steps examples</a>        
             
             
-- **<a href = "#chemsolver.ideal_gas" style="text-decoration:none">chemsolver.ideal_gas</a>**
-    - <a href = "#chemsolver.ideal_gas.import" style="text-decoration:none">Importing the module</a>
-    - <a href = "#chemsolver.ideal_gas.functions" style="text-decoration:none">Functions</a>
-        - <a href = "#chemsolver.ideal_gas.functions.ideal_gas" style="text-decoration:none">ideal_gas</a>
-        - <a href = "#chemsolver.ideal_gas.functions.ideal_gas_steps" style="text-decoration:none">ideal_gas_steps</a>
-            - <a href="#chemsolver.ideal_gas.functions.examples" style="text-decoration:none">ideal_gas and ideal_gas_steps examples</a>
+- **<a href = "#chemhelper.ideal_gas" style="text-decoration:none">chemhelper.ideal_gas</a>**
+    - <a href = "#chemhelper.ideal_gas.import" style="text-decoration:none">Importing the module</a>
+    - <a href = "#chemhelper.ideal_gas.functions" style="text-decoration:none">Functions</a>
+        - <a href = "#chemhelper.ideal_gas.functions.ideal_gas" style="text-decoration:none">ideal_gas</a>
+        - <a href = "#chemhelper.ideal_gas.functions.ideal_gas_steps" style="text-decoration:none">ideal_gas_steps</a>
+            - <a href="#chemhelper.ideal_gas.functions.examples" style="text-decoration:none">ideal_gas and ideal_gas_steps examples</a>
 
-### chemsolver.elements <a name="chemsolver.elements"></a>
+### chemhelper.elements <a name="chemhelper.elements"></a>
 
-- **Importing the module**<a name="chemsolver.elements.import"></a>
+- **Importing the module**<a name="chemhelper.elements.import"></a>
 
 
 ```python
-from chemsolver import elements
+from chemhelper import elements
 ```
 
-- **Element Class** <a name="chemsolver.elements.class"></a>
+- **Element Class** <a name="chemhelper.elements.class"></a>
    - The elements module contains an **Element object** for each of the 93 naturally occuring elements.
 ```python
              class Element:
@@ -102,14 +102,14 @@ from chemsolver import elements
                     return 'Element: ' + self.name + ', ' + self.symbol  +'\nAtomic Number: ' +str(self.atomic_number) + '\nMass: {}'.format(self.mass)
 ```
                
-- **Element Objects:**  <a name="chemsolver.elements.objects"></a> The variable names of the elements are the chemical symbols of the elements (example: hydrogen is H)
-    - **Attributes**: <a name = "chemsolver.elements.objects.attributes"></a> 
+- **Element Objects:**  <a name="chemhelper.elements.objects"></a> The variable names of the elements are the chemical symbols of the elements (example: hydrogen is H)
+    - **Attributes**: <a name = "chemhelper.elements.objects.attributes"></a> 
         - *self.symbol*: The chemical symbol of the element (example
         - *self.name*: The name of the element
         - *self.mass*: The molar mass of the element (also numerically equal to the mass of 1 atom of the element in atm)
         - *self.atomic_number*: The atomic number of the element  
           
-__*Examples*__: <a name = "chemsolver.elements.objects.examples"></a>
+__*Examples*__: <a name = "chemhelper.elements.objects.examples"></a>
 
 
 ```python
@@ -167,30 +167,30 @@ print(elements.Ca)
     Mass: 40.08
     
 
-   - **element_index:** List of element symbols. <a name = "chemsolver.elements.element_index"></a>
+   - **element_index:** List of element symbols. <a name = "chemhelper.elements.element_index"></a>
     
 ```python
       element_index = ["Ni","Cu","Zn","Ga","Ge","As","Se","Br","Kr","Rb","Sr","Y","Zr","Nb","Mo","Tc","Ru","Rh","Pd","Ag","Cd","In","Sn","Sb","Te","I","Xe","Cs","Ba","La","Ce","Pr","Nd","Pm","Sm","Eu","Gd","Tb","Dy","Ho","Er","Tm","Yb","Lu","Hf","Ta","W","Re","Os","Ir","Pt","Au","Hg","Tl","Pb","Bi","Po","At","Rn","Fr","Ra","Ac","Th","Pa","U"]```
       
       
-- **element_objects:** List of element objects <a name ="chemsolver.elements.element_objects"></a>
+- **element_objects:** List of element objects <a name ="chemhelper.elements.element_objects"></a>
 ```python
         element_objects = [H,He,Li,Be,B,C,N,O,F,Ne,Na,Mg,Al,Si,P,S,Cl,Ar,K,Ca,Sc,Ti,V,Cr,Mn,Fe,Co,Ni,Cu,Zn,Ga,Ge,As,Se,Br,Kr,Rb,Sr,Y,Zr,Nb,Mo,Tc,Ru,Rh,Pd,Ag,Cd,In,Sn,Sb,Te,I,Xe,Cs,Ba,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu,Hf,Ta,W,Re,Os,Ir,Pt,Au,Hg,Tl,Pb,Bi,Po,At,Rn,Fr,Ra,Ac,Th,Pa,U]
 ```        
-- **elements**: <a name ="chemsolver.elements.elements"></a> a pandas series containing every element object.
+- **elements**: <a name ="chemhelper.elements.elements"></a> a pandas series containing every element object.
 
-### chemsolver.compounds <a name = "chemsolver.compounds"></a>
+### chemhelper.compounds <a name = "chemhelper.compounds"></a>
 
-- **Importing the module** <a name="chemsolver.compounds.import"></a>
+- **Importing the module** <a name="chemhelper.compounds.import"></a>
 
 
 ```python
-from chemsolver import compounds
+from chemhelper import compounds
 ```
 
-- **Functions** <a name = "chemsolver.compounds.functions"></a>
+- **Functions** <a name = "chemhelper.compounds.functions"></a>
 
-    __*mass*__: <a name = "chemsolver.compounds.functions.mass"></a>determines the molar mass of a molecule and/or compound
+    __*mass*__: <a name = "chemhelper.compounds.functions.mass"></a>determines the molar mass of a molecule and/or compound
      
 ```python 
      def mass(chemical):
@@ -212,7 +212,7 @@ from chemsolver import compounds
    
    
    
-   __*mass_steps*__: <a name = "chemsolver.compounds.functions.mass_steps"></a> shows the calculation of the the molar mass of a molecule and/or compound
+   __*mass_steps*__: <a name = "chemhelper.compounds.functions.mass_steps"></a> shows the calculation of the the molar mass of a molecule and/or compound
      
 ```python 
      def mass_steps(chemical):
@@ -246,7 +246,7 @@ from chemsolver import compounds
     print( '\nMass ' + chemical + ' = ' + string + ' = ' + str(round(m,2)))
     ```
     
-*Examples*: <a name = "chemsolver.compounds.functions.examples1"></a>
+*Examples*: <a name = "chemhelper.compounds.functions.examples1"></a>
 
 
 ```python
@@ -273,7 +273,7 @@ compounds.mass_steps('HNO4')
     Mass HNO4 = 1.008 + 14.01 + 64.0 = 79.02
     
 
-   __**composition**__: <a name = "chemsolver.compounds.functions.composition"></a> returns the composition of compounds by mass
+   __**composition**__: <a name = "chemhelper.compounds.functions.composition"></a> returns the composition of compounds by mass
      
 ```python
      def composition(chemical):
@@ -298,7 +298,7 @@ compounds.mass_steps('HNO4')
         return pd.Series(masses,index=ind,name= chemical) 
     ```
    
- __**composition_steps**__: <a name = "chemsolver.compounds.functions.composition_steps"></a> step by step solution of the chemical composition of a compound by mass
+ __**composition_steps**__: <a name = "chemhelper.compounds.functions.composition_steps"></a> step by step solution of the chemical composition of a compound by mass
     
 ```python
 def composition_steps(chemical):
@@ -311,7 +311,7 @@ def composition_steps(chemical):
     print(composition(chemical))
 ```
 
-*Examples:* <a name = "chemsolver.compounds.functions.examples2"></a>
+*Examples:* <a name = "chemhelper.compounds.functions.examples2"></a>
 
 
 ```python
@@ -345,7 +345,7 @@ compounds.composition_steps('NH4')
     Name: NH4, dtype: float64
     
 
-__**percent_composition**__: <a name = "chemsolver.compounds.functions.percent_composition"></a> calculates the percent composition of each element in a compound.
+__**percent_composition**__: <a name = "chemhelper.compounds.functions.percent_composition"></a> calculates the percent composition of each element in a compound.
 ```python
 def percent_composition(chemical):
     '''
@@ -355,7 +355,7 @@ def percent_composition(chemical):
     return round((composition(chemical)/mass(chemical))* 100,3)
 ```
 
-__**percent_composition_steps**__: <a name = "chemsolver.compounds.functions.percent_composition_steps"></a> calculates and shoes, step by step, the percent composition of each element in a compound
+__**percent_composition_steps**__: <a name = "chemhelper.compounds.functions.percent_composition_steps"></a> calculates and shoes, step by step, the percent composition of each element in a compound
 ```python
 def percent_composition_steps(chemical):
     """
@@ -375,7 +375,7 @@ def percent_composition_steps(chemical):
         print(comp_str)
         i +=1```
         
-*Examples:* <a name = "chemsolver.compounds.functions.examples3"></a>
+*Examples:* <a name = "chemhelper.compounds.functions.examples3"></a>
 
 
 ```python
@@ -415,18 +415,18 @@ compounds.percent_composition_steps('KNO3')
     O: 100 x 48.00g O/101.11g KNO3 = 47.47%
     
 
-### chemsolver.conversions <a name = "chemsolver.conversions"></a>
+### chemhelper.conversions <a name = "chemhelper.conversions"></a>
 
-- **Importing the module** <a name = "chemsolver.conversions.import"></a>
+- **Importing the module** <a name = "chemhelper.conversions.import"></a>
 
 
 ```python
-from chemsolver import conversions
+from chemhelper import conversions
 ```
 
-- **Functions** <a name = "chemsolver.conversions.functions"></a>
+- **Functions** <a name = "chemhelper.conversions.functions"></a>
 
-__*grams_to_moles*__: <a name = "chemsolver.conversions.functions.grams_to_moles"></a> Converts the mass of a sample of a substance to the number of moles of that substance.
+__*grams_to_moles*__: <a name = "chemhelper.conversions.functions.grams_to_moles"></a> Converts the mass of a sample of a substance to the number of moles of that substance.
 
     
 ```python
@@ -441,7 +441,7 @@ def grams_to_moles(mass, chemical):
     return moles
 ```
 
-__*grams_to_moles_steps*__:  <a name = "chemsolver.conversions.functions.grams_to_moles_steps"></a> Shows the step by step conversion of the mass of a sample of a ubstance to the number of moles of that substance.
+__*grams_to_moles_steps*__:  <a name = "chemhelper.conversions.functions.grams_to_moles_steps"></a> Shows the step by step conversion of the mass of a sample of a ubstance to the number of moles of that substance.
 
 ```python
 def grams_to_moles_steps(mass, chemical):
@@ -457,7 +457,7 @@ def grams_to_moles_steps(mass, chemical):
 ```
 
 
-*Examples*: <a name = "chemsolver.conversions.functions.examples1"></a>
+*Examples*: <a name = "chemhelper.conversions.functions.examples1"></a>
 
 
 ```python
@@ -479,7 +479,7 @@ conversions.grams_to_moles_steps(36,'NO3')
     36g NO3 x  1 mole NO3/62.01g NO3 = 0.58 moles NO3
     
 
-__*moles_to_grams*__: <a name = "chemsolver.conversions.functions.moles_to_grams"></a> From the number of moles of a sample of a substance this function returns the mass of the sample in grams
+__*moles_to_grams*__: <a name = "chemhelper.conversions.functions.moles_to_grams"></a> From the number of moles of a sample of a substance this function returns the mass of the sample in grams
 ```python
 def moles_to_grams(moles, chemical):
     """
@@ -489,7 +489,7 @@ def moles_to_grams(moles, chemical):
     return moles * compounds.mass(chemical)
 ```
 
-__*moles_to_grams_steps*__: <a name = "chemsolver.conversions.functions.moles_to_grams_steps"></a> Displays the step by step conversion from moles of a substance to grams of the substance 
+__*moles_to_grams_steps*__: <a name = "chemhelper.conversions.functions.moles_to_grams_steps"></a> Displays the step by step conversion from moles of a substance to grams of the substance 
 
 ```python
 def moles_to_grams_steps(moles, chemical):
@@ -499,7 +499,7 @@ def moles_to_grams_steps(moles, chemical):
     print("{:.2f} moles x {:.2f} grams/mole = {:.2f} grams".format(moles, mass, grams))
 ```
 
-*Examples*: <a name = "chemsolver.conversions.functions.examples2"></a>
+*Examples*: <a name = "chemhelper.conversions.functions.examples2"></a>
 
 
 ```python
@@ -526,7 +526,7 @@ conversions.moles_to_grams_steps(moles = 1.5, chemical = 'H2O')
     1.50 moles x 18.02 grams/mole = 27.03 grams
     
 
-__*molarity*__: <a name = "chemsolver.conversions.functions.molarity"></a> Find the molarity (molar concentration) of a solute in a solution. 
+__*molarity*__: <a name = "chemhelper.conversions.functions.molarity"></a> Find the molarity (molar concentration) of a solute in a solution. 
 
 ```python
 def molarity(volume, mass=None, chemical=None, moles=None):
@@ -544,7 +544,7 @@ def molarity(volume, mass=None, chemical=None, moles=None):
         return moles / volume
 ```
 
-__*molarity_steps*__: <a name = "chemsolver.conversions.functions.molarity_steps"></a> Demonstrates, step by step, the calculation of the molarity of a solute in a solution.
+__*molarity_steps*__: <a name = "chemhelper.conversions.functions.molarity_steps"></a> Demonstrates, step by step, the calculation of the molarity of a solute in a solution.
 
 ```python
 def molarity_steps(volume, mass=None, chemical=None, moles=None):
@@ -564,7 +564,7 @@ def molarity_steps(volume, mass=None, chemical=None, moles=None):
     print("{:.2f} moles/{:.2f} L = {:.2f} M".format(moles, volume, M))
 ```
 
-*Examples*: <a name = "chemsolver.conversions.functions.examples3"></a>
+*Examples*: <a name = "chemhelper.conversions.functions.examples3"></a>
 
 
 ```python
@@ -607,7 +607,7 @@ conversions.molarity_steps(volume = 2, moles = 5)
     5.00 moles/2.00 L = 2.50 M
     
 
-__*molarity_to_moles*__: <a name = "chemsolver.conversions.functions.molarity_to_moles"></a> Find the number of moles of a solute in a solution from the molarity of the solution and the volume of the solution (in liters).
+__*molarity_to_moles*__: <a name = "chemhelper.conversions.functions.molarity_to_moles"></a> Find the number of moles of a solute in a solution from the molarity of the solution and the volume of the solution (in liters).
 
 ```python
 def molarity_to_moles(M, volume):
@@ -619,14 +619,14 @@ def molarity_to_moles(M, volume):
     return M * volume
 ```
 
-__*molarity_to_moles_steps*__: <a name = "chemsolver.conversions.functions.molarity_to_moles_steps"></a> Shows the calculation of the number of moles of a solute from the molarity of the solution and the volume of the solution in liters.
+__*molarity_to_moles_steps*__: <a name = "chemhelper.conversions.functions.molarity_to_moles_steps"></a> Shows the calculation of the number of moles of a solute from the molarity of the solution and the volume of the solution in liters.
 
 ```python
 def molarity_to_moles_steps(M, volume):
     print("{:.2f} moles/L x {:.2f} L = {:.2f} moles".format(M, volume, molarity_to_moles(M, volume)))
 ```
 
-*Examples:* <a name = "chemsolver.conversions.functions.examples4"></a>
+*Examples:* <a name = "chemhelper.conversions.functions.examples4"></a>
 
 
 ```python
@@ -649,7 +649,7 @@ conversions.molarity_to_moles_steps(M = 1.5, volume = 3.0)
     1.50 moles/L x 3.00 L = 4.50 moles
     
 
-__*molarity_to_grams*__: <a name = "chemsolver.conversions.functions.molarity_to_grams"></a> Find the mass of a solute, in grams, from the molarity of the solution and the volume of the solution (in L).
+__*molarity_to_grams*__: <a name = "chemhelper.conversions.functions.molarity_to_grams"></a> Find the mass of a solute, in grams, from the molarity of the solution and the volume of the solution (in L).
 ```python
 def molarity_to_grams(molarity, volume, chemical):
     '''
@@ -663,14 +663,14 @@ def molarity_to_grams(molarity, volume, chemical):
     return round(molar_mass * moles, 2)
 ```
 
-__*molarity_to_grams_steps*__: <a name = "chemsolver.conversions.functions.molarity_to_grams_steps"></a> Shows the step by step calculation of the mass of a solute, in grams, from the molarity of the solution and the volume of the solution (in L)
+__*molarity_to_grams_steps*__: <a name = "chemhelper.conversions.functions.molarity_to_grams_steps"></a> Shows the step by step calculation of the mass of a solute, in grams, from the molarity of the solution and the volume of the solution (in L)
 ```python
 def molarity_to_grams_steps(molarity, volume, chemical):
     moles = molarity_to_moles(molarity, volume)
     moles_to_grams_steps(moles, chemical)
 ```
 
-*Examples:* <a name = "chemsolver.conversions.functions.examples5"></a>
+*Examples:* <a name = "chemhelper.conversions.functions.examples5"></a>
 
 
 ```python
@@ -697,18 +697,18 @@ conversions.molarity_to_grams_steps(molarity = 1.5, volume = 2, chemical = 'CH4'
     3.00 moles x 16.04 grams/mole = 48.12 grams
     
 
-### chemsolver.ideal_gas <a name = "chemsolver.ideal_gas"></a>
+### chemhelper.ideal_gas <a name = "chemhelper.ideal_gas"></a>
 
-- **Importing the module** <a name = "chemsolver.ideal_gas.import"></a>
+- **Importing the module** <a name = "chemhelper.ideal_gas.import"></a>
 
 
 ```python
-from chemsolver import ideal_gas
+from chemhelper import ideal_gas
 ```
 
-- **Functions** <a name = "chemsolver.ideal_gas.functions"></a>
+- **Functions** <a name = "chemhelper.ideal_gas.functions"></a>
 
-__*ideal_gas*__: <a name = "chemsolver.ideal_gas.functions.ideal_gas"></a> can be used to calculate the pressure (in atm), volume (in liters), moles, mass (in grams), or temperature (in kelvin) of an ideal gas.
+__*ideal_gas*__: <a name = "chemhelper.ideal_gas.functions.ideal_gas"></a> can be used to calculate the pressure (in atm), volume (in liters), moles, mass (in grams), or temperature (in kelvin) of an ideal gas.
 ```python
 def ideal_gas(solve_for, substance=None, P=None, V=None, n=None, T=None, m=None, decimals=2, Tunits='K', Vunits='L',
               Punits='atm'):
@@ -736,7 +736,7 @@ def ideal_gas(solve_for, substance=None, P=None, V=None, n=None, T=None, m=None,
         return (T, 2)
 ```
 
-__**ideal_gas_steps**__: <a name = "chemsolver.ideal_gas.functions.ideal_gas_steps"></a> shows the step by step calculation of the pressure, volume, moles, mass, or temperature of an ideal gas.
+__**ideal_gas_steps**__: <a name = "chemhelper.ideal_gas.functions.ideal_gas_steps"></a> shows the step by step calculation of the pressure, volume, moles, mass, or temperature of an ideal gas.
 
 ```python
 def ideal_gas_steps(solve_for, substance=None, P=None, V=None, n=None, T=None, m=None, decimals=2, Tunits='K',
@@ -790,7 +790,7 @@ def ideal_gas_steps(solve_for, substance=None, P=None, V=None, n=None, T=None, m
         print('T = {} atm * {} L/({} moles * 0.0821 L*atm/mole*K = {} K)'.format(P, V, n, T))
 ```
 
-*Examples*: <a name = 'chemsolver.ideal_gas.functions.examples'></a>
+*Examples*: <a name = 'chemhelper.ideal_gas.functions.examples'></a>
 
 
 ```python
