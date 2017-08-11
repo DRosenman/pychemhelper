@@ -1,5 +1,5 @@
 
-ChemSolver Package: Version 0.4
+ChemHelper Package: Version 0.4
 ===============================
 
 Purpose
@@ -20,15 +20,15 @@ Installation
 
 .. code:: ruby
 
-    pip install chemsolver
+    pip install chemhelper
 
 or available for download at
-https://pypi.python.org/pypi?name=chemsolver&version=0.1&:action=display
+https://pypi.python.org/pypi/chemhelper/0.4
 
 Modules
 -------
 
--  **chemsolver.elements**
+-  **chemhelper.elements**
 
    -  Importing the module
 
@@ -43,7 +43,7 @@ Modules
    -  element\_objects
    -  elements
 
--  **chemsolver.compounds**
+-  **chemhelper.compounds**
 
    -  Importing the module
    -  Functions
@@ -64,7 +64,7 @@ Modules
          -  percent\_composition and percent\_composition\_steps
             examples
 
--  **chemsolver.conversions**
+-  **chemhelper.conversions**
 
    -  Importing the module
    -  Functions
@@ -94,7 +94,7 @@ Modules
 
          -  molarity and molarity\_steps examples
 
--  **chemsolver.ideal\_gas**
+-  **chemhelper.ideal\_gas**
 
    -  Importing the module
    -  Functions
@@ -104,14 +104,14 @@ Modules
 
          -  ideal\_gas and ideal\_gas\_steps examples
 
-chemsolver.elements 
+chemhelper.elements 
 ~~~~~~~~~~~~~~~~~~~~
 
 -  **Importing the module**\ 
 
 .. code:: ipython3
 
-    from chemsolver import elements
+    from chemhelper import elements
 
 -  **Element Class**
 -  The elements module contains an **Element object** for each of the 93
@@ -224,14 +224,14 @@ chemsolver.elements
 
 -  **elements**: a pandas series containing every element object.
 
-chemsolver.compounds 
+chemhelper.compounds 
 ~~~~~~~~~~~~~~~~~~~~~
 
 -  **Importing the module**
 
 .. code:: ipython3
 
-    from chemsolver import compounds
+    from chemhelper import compounds
 
 -  **Functions**
 
@@ -461,14 +461,14 @@ component\_series[i] chem\_mass = mass(chemical)
     O: 100 x 48.00g O/101.11g KNO3 = 47.47%
     
 
-chemsolver.conversions 
+chemhelper.conversions 
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 -  **Importing the module**
 
 .. code:: ipython3
 
-    from chemsolver import conversions
+    from chemhelper import conversions
 
 -  **Functions**
 
@@ -775,14 +775,14 @@ the volume of the solution (in L)
     3.00 moles x 16.04 grams/mole = 48.12 grams
     
 
-chemsolver.ideal\_gas 
+chemhelper.ideal\_gas 
 ~~~~~~~~~~~~~~~~~~~~~~
 
 -  **Importing the module**
 
 .. code:: ipython3
 
-    from chemsolver import ideal_gas
+    from chemhelper import ideal_gas
 
 -  **Functions**
 
